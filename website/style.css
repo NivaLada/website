@@ -23,6 +23,18 @@ pre{
     color: white;
 }
 
+a:active{
+    color: rgb(53, 53, 53)
+}
+
+a:visited{
+    color: rgb(53, 53, 53)
+}
+
+a:link{
+    color: rgb(53, 53, 53)
+}
+
 h1{
     color: white;
 }
@@ -75,6 +87,29 @@ div:nth-child(3){
 }
 
 div:nth-child(4){
+    background-color: black;
+    height: 400px;
+}
+
+div:nth-child(5){
+    background-image: url(./img/sroomwhite3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+div:nth-child(6){
+    background-color: black;
+    height: 400px;
+}
+
+div:nth-child(7){
+    background-image: url(./img/kabel-ConvertImage.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div:nth-child(8){
     background-color: black;
     height: 400px;
 }
